@@ -1,0 +1,231 @@
+Nagisa:paiza lobin$ ./run_all.sh data1
+== 1 ==
+6600
+
+real	0m0.072s
+user	0m0.035s
+sys	0m0.022s
+== 2 ==
+6600
+
+real	0m0.040s
+user	0m0.027s
+sys	0m0.011s
+== nishi ==
+6600
+
+real	0m0.043s
+user	0m0.029s
+sys	0m0.012s
+Nagisa:paiza lobin$ ./run_all.sh data2
+== 1 ==
+23072
+
+real	0m0.039s
+user	0m0.027s
+sys	0m0.009s
+== 2 ==
+23072
+
+real	0m0.045s
+user	0m0.030s
+sys	0m0.013s
+== nishi ==
+23072
+
+real	0m0.047s
+user	0m0.031s
+sys	0m0.013s
+Nagisa:paiza lobin$ ./run_all.sh data10
+== 1 ==
+24918
+
+real	0m0.042s
+user	0m0.029s
+sys	0m0.009s
+== 2 ==
+24918
+
+real	0m0.045s
+user	0m0.031s
+sys	0m0.012s
+== nishi ==
+24918
+
+real	0m0.044s
+user	0m0.031s
+sys	0m0.012s
+Nagisa:paiza lobin$ ./run_all.sh data11
+== 1 ==
+28447
+
+real	0m0.041s
+user	0m0.028s
+sys	0m0.009s
+== 2 ==
+28447
+
+real	0m0.046s
+user	0m0.031s
+sys	0m0.013s
+== nishi ==
+28447
+
+real	0m0.047s
+user	0m0.033s
+sys	0m0.013s
+Nagisa:paiza lobin$ ./run_all.sh data12
+== 1 ==
+41415
+
+real	0m0.058s
+user	0m0.033s
+sys	0m0.017s
+== 2 ==
+41415
+
+real	0m0.045s
+user	0m0.031s
+sys	0m0.012s
+== nishi ==
+41415
+
+real	0m0.054s
+user	0m0.039s
+sys	0m0.012s
+Nagisa:paiza lobin$ ./run_all.sh data13
+== 1 ==
+44868
+
+real	0m0.052s
+user	0m0.038s
+sys	0m0.010s
+== 2 ==
+44868
+
+real	0m0.063s
+user	0m0.046s
+sys	0m0.015s
+== nishi ==
+44868
+
+real	0m0.056s
+user	0m0.044s
+sys	0m0.011s
+Nagisa:paiza lobin$ ./run_all.sh data14
+== 1 ==
+37436
+
+real	0m0.048s
+user	0m0.035s
+sys	0m0.010s
+== 2 ==
+37436
+
+real	0m0.054s
+user	0m0.039s
+sys	0m0.014s
+== nishi ==
+37436
+
+real	0m0.090s
+user	0m0.074s
+sys	0m0.014s
+Nagisa:paiza lobin$ ./run_all.sh data1
+data1   data10  data11  data12  data13  data14  data15
+Nagisa:paiza lobin$ ./run_all.sh data15
+== 1 ==
+41175
+
+real	0m0.076s
+user	0m0.055s
+sys	0m0.015s
+== 2 ==
+41175
+
+real	0m0.052s
+user	0m0.040s
+sys	0m0.010s
+== nishi ==
+41175
+
+real	0m0.127s
+user	0m0.109s
+sys	0m0.015s
+Nagisa:paiza lobin$ ./run_all.sh data20
+== 1 ==
+55325
+
+real	0m0.789s
+user	0m0.767s
+sys	0m0.018s
+== 2 ==
+55325
+
+real	0m0.061s
+user	0m0.049s
+sys	0m0.010s
+== nishi ==
+55325
+
+real	0m3.436s
+user	0m3.317s
+sys	0m0.110s
+Nagisa:paiza lobin$ ./run_all.sh data2
+data2   data20  data22  data24  data27
+Nagisa:paiza lobin$ ./run_all.sh data22
+== 1 ==
+85754
+
+real	0m2.607s
+user	0m2.567s
+sys	0m0.034s
+== 2 ==
+85754
+
+real	0m0.694s
+user	0m0.670s
+sys	0m0.021s
+== nishi ==
+85754
+
+real	0m16.493s
+user	0m16.014s
+sys	0m0.434s
+Nagisa:paiza lobin$ ./run_all.sh data24
+== 1 ==
+54223
+
+real	0m3.623s
+user	0m3.561s
+sys	0m0.048s
+== 2 ==
+54223
+
+real	0m0.864s
+user	0m0.839s
+sys	0m0.021s
+== nishi ==
+54223
+
+real	1m21.820s
+user	1m14.954s
+sys	0m4.538s
+Nagisa:paiza lobin$ ./run_all.sh data27
+== 1 ==
+69938
+
+real	0m40.358s
+user	0m39.643s
+sys	0m0.573s
+== 2 ==
+69938
+
+real	0m14.897s
+user	0m14.425s
+sys	0m0.373s
+== nishi ==
+2014-10-23 16:23:15.192 MacVim[2661:177330] IMK Stall detected, *please Report* your user scenario in <rdar://problem/16792073> - (invocationInterruptXPCReply) block performed very slowly (17.03 secs)
+2014-10-23 16:23:15.205 MacVim[2661:177330] IMK Stall detected, *please Report* your user scenario in <rdar://problem/16792073> - (imkxpc_attributesForCharacterIndex:reply:) block performed very slowly (17.05 secs)
+^C
+Nagisa:paiza lobin$
