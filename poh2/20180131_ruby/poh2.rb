@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# 採点結果 https://paiza.jp/poh/paizen/result/ab34a230
 
 def debug(str)
   STDERR.puts str
